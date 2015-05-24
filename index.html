@@ -4,41 +4,53 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
 <!--<![endif]-->
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=640, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
-        <title>Contractor Jobs, Employment. Javascript, node.js, digital business, design, marketing, technology.</title>
-        <style>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=640, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
+    <title>Contractor Jobs, Employment. Javascript, node.js, digital business, design, marketing, technology.</title>
+    <style>
+        .col {
+            padding: 0 1.5em;
+        }
+
+        .row .row {
+            margin: 0 -1.5em;
+        }
+
+        .row:before,
+        .row:after {
+            content: "";
+            display: table;
+        }
+
+        .row:after {
+            clear: both;
+        }
+
+        @media only screen {
             .col {
-                padding: 0 1.5em;
+                float: left;
+                width: 100%;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
             }
+        }
 
-            .row .row {
-                margin: 0 -1.5em;
-            }
+        body {
+            background: #eee;
+        }
 
-            .row:before,
-            .row:after {
-                content: "";
-                display: table;
-            }
-
-            .row:after {
-                clear: both;
-            }
-
-            @media only screen {
-                .col {
-                    float: left;
-                    width: 100%;
-                    -webkit-box-sizing: border-box;
-                    -moz-box-sizing: border-box;
-                    box-sizing: border-box;
-                }
-            }
-        </style>
-        <script src="//cdn.optimizely.com/js/2903990456.js"></script>
-    </head>
-    <body>
-    </body>
+        #logo {
+            text-align: center;
+            width: 150px;
+            margin: 10% auto;
+            display: block;
+        }
+    </style>
+    <script src="//cdn.optimizely.com/js/2903990456.js"></script>
+</head>
+<body>
+    <img id="logo" src="../../img/team-ocho-logo.png">
+</body>
 </html>
