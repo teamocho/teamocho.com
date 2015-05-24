@@ -1,0 +1,30 @@
+{
+    "name": "teamocho.com",
+    "version": "1.0.0",
+    "description": "website",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "bower prune && bower install && npm prune",
+        "dev": "grunt dev",
+        "test": "grunt test",
+        "lint": "grunt lint",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/teamocho/teamocho.com.git"
+    },
+    "author": "Ezekiel Chentnik",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/teamocho/teamocho.com/issues"
+    },
+    "homepage": "https://github.com/teamocho/teamocho.com",
+    "dependencies": {
+        "bower": "^1.4.1",
+        "express": "^4.12.4"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5"
+    }
+}
